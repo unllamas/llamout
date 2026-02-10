@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@eslint/eslintrc": "^3.3.3",
     "@instantdb/admin": "^0.17.33",
     "@instantdb/core": "^0.17.33",
     "@instantdb/react": "^0.17.33",
