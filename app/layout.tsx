@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   // manifest: `${process.env.NEXT_PUBLIC_APP_URL}/site.webmanifest`,
 };
 
-const CRISP_ID = process.env.CRISP_ID;
+// const CRISP_ID = process.env.CRISP_ID;
 
 export default function RootLayout({
   children,
@@ -58,7 +58,7 @@ export default function RootLayout({
     <html lang='en'>
       <head>
         <link href='https://fonts.cdnfonts.com/css/satoshi' rel='stylesheet' />
-        <Script
+        {/* <Script
           id='crisp-chat'
           strategy='afterInteractive'
           dangerouslySetInnerHTML={{
@@ -74,7 +74,7 @@ export default function RootLayout({
             })();
           `,
           }}
-        />
+        /> */}
         {/* <script type='text/javascript'></script> */}
       </head>
       <body className={`antialiased`}>

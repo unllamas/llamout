@@ -7,7 +7,7 @@ const nextConfig = {
     GOOGLE_ID: process.env.GOOGLE_CLIENT_ID,
     GOOGLE_CLIENT_NAME: 'google-prod',
     // CRISP
-    CRISP_ID: process.env.NEXT_PUBLIC_CRISP_WEBSITE_ID,
+    // CRISP_ID: process.env.NEXT_PUBLIC_CRISP_WEBSITE_ID,
   },
   // transpilePackages: ['@workspace/ui'],
   images: {
