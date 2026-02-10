@@ -36,7 +36,7 @@ export function Table() {
                 <span className='text-lg'>Llamout</span>
               </h3>
             </div>
-            <div className='flex flex-col py-4 md:py-12 bg-linear-to-l from-gray-100 to-white rounded-l-lg'>
+            <div className='flex flex-col py-4 md:py-12 bg-gradient-to-l from-gray-100 to-white rounded-l-lg'>
               <div className='flex flex-col justify-center h-24 px-12'>
                 <p className='text-md'>2.9% - 7%</p>
                 <p className='text-sm text-muted-foreground'>+ $0.30 per transaction.</p>
